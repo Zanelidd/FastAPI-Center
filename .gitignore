@@ -1,0 +1,33 @@
+# Environnements Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Base de données locale ou fichiers temporaires
+*.sqlite3
+*.log
+
+# Migrations (si vous utilisez Alembic)
+alembic/versions/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
